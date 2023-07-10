@@ -7,7 +7,7 @@
 #즉, 앞으로 판단할 무게를 모두 부분집합에 포함한다고 가정했을 때의 무게의 합
 #hap + (total - thap)이 res(지금까지 부분집합의 합 중 최대값, 기존의 답)보다 작다면
 #더이상 탐색할 필요가 없음(어차피 답이 될 수 없으므로) -> cut
-#res는 res = hap에서 지역변수로 인식 -> if hap > res에서 초기화를 하지 않았는데 참조 -> 에러 발생
+#res는 res = hap부분에서 지역변수로 인식 -> if hap > res에서 초기화를 하지 않았는데 참조 -> 에러
 #global 키워드로 main에 있는 전역변수 res임을 표시
 import sys
 # sys.stdin = open("input.txt", "r")
