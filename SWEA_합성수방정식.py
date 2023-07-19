@@ -1,3 +1,7 @@
+#https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AYYAGCNKPgIDFARc(문제링크)
+#iscn함수를 이용하여 합성수인지 판별(2부터 s의 제곱근까지 반복하고 하나라도 나누어 떨어지면 True 리턴)
+#무한반복하다가 i와 i+n이 모두 합성수이면 출력 후 반복문 탈출
+#1부터 3까지는 합성수가 아니므로 i는 4부터 시작
 import sys
 # sys.stdin = open("input.txt", "r")
 input = sys.stdin.readline
