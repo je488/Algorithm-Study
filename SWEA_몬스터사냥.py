@@ -1,3 +1,4 @@
+#https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AXb6LR76vCcDFARR(문제링크)
 #지금까지 몬스터를 n번 때렸을 때 다음 공격의 데미지는 D(1+n*L%)이므로 sum에 데미지의 누적 합 구하기
 #첫번째 공격을 할 때의 데미지는 D(1+0*L%)이고 N번째 공격을 할 때의 데미지는 D(1+(N-1)*L%)
 #%는 1/100이므로 0.01 곱하기
