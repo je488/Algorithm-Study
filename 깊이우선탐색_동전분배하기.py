@@ -3,6 +3,7 @@
 #L == n일 경우 즉, 모든 동전을 분배한 경우 3명의 금액의 합이 모두 다른지 if문으로 체크
 #3명의 금액의 합이 모두 다를 경우 금액의 최댓값과 최솟값의 차 구하기
 #구한 값(최댓값-최솟값)이 이전에 구한 답(res)보다 작을 경우 res의 값을 바꿔 최소차 구하기
+#res = cha에서 res를 지역변수로 인식 -> if cha < res에서 에러 발생 -> global로 전역변수 표시
 import sys
 # sys.stdin = open("input.txt", "r")
 input = sys.stdin.readline
