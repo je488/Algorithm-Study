@@ -4,7 +4,7 @@
 #거리 = 속력 * 시간
 #time = 기차 사이의 거리 / (A의 속력 + B의 속력)
 #res = 파리의 속력 * time
-#실행시간을 단축하기 위해 정답을 ans배열에 저장한 후 한꺼번에 출력
+#실행시간을 단축시키기 위해 정답을 ans배열에 저장한 후 한꺼번에 출력
 import sys
 # sys.stdin = open("input.txt", "r")
 input = sys.stdin.readline
