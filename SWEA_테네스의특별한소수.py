@@ -1,3 +1,8 @@
+#https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWRuoqCKkE0DFAXt(문제링크)
+#테스트케이스별로 소수를 찾으면 시간초과가 발생하므로 미리 소수를 판별하는 리스트(ch) 생성
+#에라토스테네스의 체를 이용하여 1부터 a와 b의 최댓값인 1000000까지 소수인지 아닌지 ch에 체크
+#ch는 인덱스가 소수인 경우 값이 0, 소수가 아닌 경우 값이 1인 리스트
+#a부터 b까지 k로 반복하며 소수인지 체크하고 소수이면 k를 문자열로 바꿔서 d가 포함되는지 체크
 import sys
 # sys.stdin = open("input.txt", "r")
 input = sys.stdin.readline
