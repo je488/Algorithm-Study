@@ -7,6 +7,7 @@
 #하지만 B는 짝수가 될 수 없음(2가 유일한 짝수인 소수이므로) -> 따라서 A가 3인 경우부터 판별
 #골드바흐의 추측은 10^18이하에서는 참인 것이 증명되어 있음
 #따라서 주어진 MAX값의 범위에서는 A + B = N(N은 짝수, A와 B는 소수)이 되지 않는 경우는 없음
+#백준 채점 결과 input = sys.stdin.readline 코드를 포함하고 pypy로 채점해야 통과 가능
 import sys
 sys.stdin = open("input.txt", "r")
 input = sys.stdin.readline
