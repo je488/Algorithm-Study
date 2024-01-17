@@ -1,3 +1,8 @@
+#BOJ_18290_2.py에서 같은 행에서 중복된 선택을 하는 경우를 방지하기 위해 py 추가
+#(px, py)는 이전에 선택한 칸의 좌표
+#반복문에서 x는 px(이전에 선택한 칸의 행)부터 시작
+#y는 px == x인 경우 py(이전에 선택한 칸의 열)부터 시작하고 px > x인 경우 0부터 시작
+#정확하게는 px == x인 경우 py + 1부터 시작이지만 if (c[x][y]):에서 걸리므로 py부터 시작
 import sys
 sys.stdin = open("input.txt", "r")
 input = sys.stdin.readline
