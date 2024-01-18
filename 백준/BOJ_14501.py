@@ -9,6 +9,7 @@
 #day == n인 경우 상담을 끝낸 다음날이 퇴사일이므로 정답을 찾은 경우에 해당
 #따라서 이전에 구한 정답(ans)보다 크면 ans값 바꿔주기 
 #day > n인 경우 상담을 끝낸 다음날이 퇴사일 이후이므로 상담이 불가능한 경우 -> return
+#하나의 함수가 2개의 함수를 호출하고 함수의 깊이는 최대 N이므로 시간 복잡도는 O(2^N)
 import sys
 sys.stdin = open("input.txt", "r")
 input = sys.stdin.readline
