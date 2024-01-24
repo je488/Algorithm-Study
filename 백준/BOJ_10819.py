@@ -5,6 +5,8 @@
 #첫 순열을 만들기 위해 주어진 N개의 수를 오름차순으로 정렬
 #순열을 만들면 calc 함수로 문제에서 주어진 식의 값을 구하기
 #식의 값이 이전에 구한 정답(ans)보다 크면 ans값 바꿔주기
+#시간 복잡도는 N!만큼 반복하면서 calc, next_permutation 함수 호출(둘다 시간 복잡도 N)
+#따라서 총 시간복잡도는 O(N * N!)
 import sys
 sys.stdin = open("input.txt", "r")
 input = sys.stdin.readline
