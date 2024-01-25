@@ -1,3 +1,7 @@
+#BOJ_14889_1.py는 모든 경우를 다 해보는 것이므로 브루트 포스
+#브루트 포스에 특정 조건을 추가하여 중간에 호출을 중단시키면 백트래킹
+#특정 팀의 인원이 N // 2명을 넘는 경우는 불가능한 경우로 함수 호출 종료 -> 백트래킹
+#BOJ_14889_1.py보다 시간 단축
 import sys
 sys.stdin = open("input.txt", "r")
 input = sys.stdin.readline
