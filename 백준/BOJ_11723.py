@@ -1,3 +1,9 @@
+#비트 연산 이용
+#s에 x를 추가 : s | (1 << x)
+#s에서 x를 제거 : s & ~(1 << x)
+#s에 x가 있는지 검사(결과가 0이면 없고 0이 아니면 있음) : s & (1 << x)
+#s에서 x를 토글(0이면 1로, 1이면 0으로) : s ^ (1 << x)
+#s를 1부터 n까지 전체 집합으로 만들기 : (1 << n) - 1
 import sys
 sys.stdin = open("input.txt", "r")
 input = sys.stdin.readline
