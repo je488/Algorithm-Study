@@ -11,24 +11,21 @@ def check(row, col):
     return True
 
 def go(row):
+    ans = 0
     if row == n:
         return 1
-    ans = 0
     for col in range(n):
         if check(row, col):
             check_col[col] = 1
             check_dig[row+col] = 1
             check_dig2[n-1+row-col] = 1
-            a[row][col] = 1
             ans += go(row+1)
             check_col[col] = 0
             check_dig[row+col] = 0
             check_dig2[n-1+row-col] = 0
-            a[row][col] = 0
     return ans
 
 n = int(input())
-a = [[0] * n for _ in range(n)]
 check_col = [0] * n
 check_dig = [0] * (2*n-1)
 check_dig2 = [0] * (2*n-1)
