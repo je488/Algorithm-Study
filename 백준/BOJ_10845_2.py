@@ -1,3 +1,4 @@
+#collections.deque를 이용하여 큐 구현
 import sys
 from collections import deque
 sys.stdin = open("input.txt", "r")
