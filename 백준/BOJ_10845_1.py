@@ -1,6 +1,7 @@
 #배열을 이용하여 큐 구현
 #push, pop, size, empty, front, back 연산이 모두 시간 복잡도 O(1)이 되게 구현
 #큐에는 begin ~ (end-1)까지 자료가 들어있음
+#input = sys.stdin.readline 없으면 시간초과
 import sys
 sys.stdin = open("input.txt", "r")
 input = sys.stdin.readline
