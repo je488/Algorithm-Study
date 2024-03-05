@@ -1,4 +1,5 @@
 #collections.deque를 이용하여 큐 구현
+#input = sys.stdin.readline 없으면 시간초과
 import sys
 from collections import deque
 sys.stdin = open("input.txt", "r")
