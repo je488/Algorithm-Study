@@ -45,13 +45,13 @@ for k in range(groupn):
         index = (index+1) % l
     for i in range(k, n-k-1):
         a[i][m-k-1] = group[index]
-        index = (index + 1) % l
+        index = (index+1) % l
     for j in range(m-k-1, k, -1):
         a[n-k-1][j] = group[index]
-        index = (index + 1) % l
+        index = (index+1) % l
     for i in range(n-k-1, k, -1):
         a[i][k] = group[index]
-        index = (index + 1) % l
+        index = (index+1) % l
 
 for row in a:
     print(' '.join(map(str, row)))
