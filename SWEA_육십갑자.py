@@ -1,3 +1,7 @@
+#https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AYzIZNkq-v4DFAQ9(문제링크)
+#s, t 각각의 리스트에서 다음 순서가 없는 경우 첫 원소로 돌아감
+#따라서 연도(year)가 주어지면 s, t 리스트의 길이로 나눈 나머지 값 구하기
+#연도는 1부터 시작하지만 리스트는 인덱스가 0부터 시작하므로 구한 나머지 값에서 -1 해주기
 import sys
 #sys.stdin = open("input.txt", "r")
 input = sys.stdin.readline
