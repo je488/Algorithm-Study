@@ -2,7 +2,7 @@ import sys
 from collections import deque
 sys.stdin = open("input.txt", "r")
 input = sys.stdin.readline
-MAX = 200000
+MAX = 100000
 check = [0] * (MAX+1)
 sec = [-1] * (MAX+1)
 n, k = map(int, input().split())
