@@ -1,3 +1,7 @@
+#큐 대신 덱(deque)을 사용 -> 큐와 달리 덱은 양쪽에서 값을 넣고 빼는 것이 가능
+#순간이동은 덱의 앞에, 걷기는 덱의 뒤에 넣기
+#BOJ_13549_1.py에서 현재 큐에 넣는 것을 덱의 앞에, 다음 큐에 넣은 것을 덱의 뒤에 넣기
+#덱이 비어있으면 반복문 종료
 import sys
 from collections import deque
 sys.stdin = open("input.txt", "r")
