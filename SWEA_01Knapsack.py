@@ -1,5 +1,5 @@
 #https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWBJAVpqrzQDFAWr(문제링크)
-#n <= 100이므로 백트래킹을 이용하면 시간복잡도가 O(2^n) = 2^100으로 1억보다 크기 때문에 시간 초과
+#n <= 100이므로 백트래킹을 이용하면 시간복잡도가 O(2^n) = 2^100 > 1억 -> 시간 초과
 #따라서 다이나믹 프로그래밍을 이용하여 해결
 #dp[i][j] : i번째 물건까지 고려하고 가방의 부피가 j일 때 최대가 되는 가치의 합
 #현재 물건의 부피가 v일 때 v > j인 경우 현재 물건을 가방에 넣을 수 없음
