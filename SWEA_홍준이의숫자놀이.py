@@ -1,3 +1,8 @@
+#https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV-0U8FKZLQDFAXT(문제링크)
+#확장된 유클리드 호제법 이용(유클리드 호제법, 베주 항등식 지식 필요)
+#참고1 : https://velog.io/@cjy/nkryvnjc
+#참고2 : https://johoonday.tistory.com/144
+#참고3 : https://coloredrabbit.tistory.com/98
 import sys
 # sys.stdin = open("input.txt", "r")
 input = sys.stdin.readline
