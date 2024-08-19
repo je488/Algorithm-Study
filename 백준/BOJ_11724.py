@@ -2,7 +2,7 @@
 #check는 정점의 방문여부를 체크하는 리스트로 check값이 True면 방문, False면 방문X
 #DFS나 BFS 탐색을 이용하여 연결 요소의 개수를 구할 수 있음(코드에서는 DFS 이용)
 #DFS, BFS 모두 한 정점에서 연결된 모든 정점을 방문하는 알고리즘
-#따라서 DFS나 BFS의 시작은 연결 요소를 찾음을 의미
+#따라서 DFS나 BFS의 시작은 연결 요소 1개를 찾은 것과 같음
 #1부터 n까지 탐색하면서 방문하지 않은 정점일 때 DFS 시작(연결 요소의 개수 1 증가)
 import sys
 sys.stdin = open("input.txt", "r")
