@@ -7,6 +7,8 @@
 #node -> next에서 node의 색상이 c이면 next의 색상은 3-c
 #중간에 하나라도 리턴값이 False이면 이분 그래프X
 #이분 그래프는 연결 요소가 1보다 커도 상관 없으므로 1부터 n까지 모두 검사
+#input = sys.stdin.readline 없으면 시간 초과
+#sys.setrecursionlimit(1000000) 없으면 Recursion Error 발생
 import sys
 sys.stdin = open("input.txt", "r")
 input = sys.stdin.readline
