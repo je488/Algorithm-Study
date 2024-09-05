@@ -1,3 +1,8 @@
+#find_code(a)는 a에서 56자리 암호코드 정보를 찾아 리턴하는 함수
+#암호코드가 여러 줄이라도 내용은 같으므로 한 줄만 찾아서 리턴
+#암호코드에서 숫자 하나는 7개의 비트로 암호화되어 있으므로 code를 7개씩 슬라이싱
+#슬라이싱한 7자리 코드를 password에서 찾아 숫자로 변환하여 num 리스트에 저장
+#num을 바탕으로 올바른 암호코드인지 판별하여 올바른 암호코드이면 num의 합, 올바르지 않으면 0
 import sys
 # sys.stdin = open("input.txt", "r")
 input = sys.stdin.readline
