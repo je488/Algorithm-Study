@@ -8,7 +8,7 @@
 #check_col[i]는 i번 열에 퀸이 놓여져 있으면 1, 놓여져 있지 않으면 0
 #check_dig[i]는 i번째 /대각선에 퀸이 놓여져 있으면 1, 놓여져 있지 않으면 0
 #check_dig2[i]는 i번째 \대각선에 퀸이 놓여져 있으면 1, 놓여져 있지 않으면 0
-#/대각선은 row+col값이 같으면 같은 대각선, \대각선은 n-1+row-col값이 같으면 같은 대각선
+#/대각선은 row+col값이 같으면 같은 대각선, \대각선은 n+row-col-1값이 같으면 같은 대각선
 #check 함수를 이용하여 row, col 자리에 퀸을 놓을 수 있는지 검사 후 go 함수 호출
 #go 함수의 호출이 끝나면 check_col, check_dig, check_dig2의 값을 다시 0으로 바꿔주기
 import sys
