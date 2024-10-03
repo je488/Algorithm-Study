@@ -11,7 +11,7 @@
 #check(x, y, num, what)은 x행 y열에 what의 값에 따라 num을 놓거나 놓지 않음을 표시해주는 함수
 #check_range(x, y)는 x행 y열이 보드의 범위를 벗어나는지 검사하는 함수
 #(nx, ny)는 현재 칸(x, y)을 기준으로 오른쪽 또는 아래 칸
-#(nx, ny)가 보드의 범위를 넘어가거나 (nx, ny)칸에 숫자가 이미 있으면 continue
+#(nx, ny)가 보드의 범위를 벗어나거나 (nx, ny)칸에 숫자가 이미 있으면 continue
 #1 ~ 9까지 이중 for문을 이용하여 도미노 만들기
 #i == j이거나 domino[i][j] 값이 True이면(이미 그 도미노를 사용한 경우) continue
 #can을 이용하여 (x, y)칸에 i, (nx, ny)칸에 j가 올 수 있는지 검사
